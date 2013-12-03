@@ -5,8 +5,10 @@
     <title>Agencia Metrics - Marketing Digital</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Marketing Digital en Argentina. Agencia Metrics">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
 
     <script src="js/jquery.js"></script>
+    <script src="js/smooth-scroll.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
@@ -31,13 +33,13 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
-                <li class="active"><a href="#home">Home</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#que">Equipo</a></li>
+                <li><a href="#home" class="scroll">Home</a></li>
+                <li><a href="#services" class="scroll">Servicios</a></li>
+                <li><a href="#team"  class="scroll">Equipo</a></li>
 <!--
                 <li><a href="#ticket">Digital News</a></li>
 -->
-                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#contact"  class="scroll">Contacto</a></li>
 
     </ul>
     <ul class="nav navbar-nav navbar-right">
@@ -63,13 +65,13 @@
       </div>
 
       <!-- Example row of columns -->
-      <div  id="servicios" ></div>
+      <div  id="services" ></div>
       <hr class="m10v"> 
     <div class="row-fluid">
     <h1 style="margin-top:60px;">Servicios</h1>
 
 
-       <p class="lead"> En Metrics nos orientamos al Marketing de Performance. Esto significa que todos nuestros esfuerzos están puestos en crear campañas en medios digitales con objetivos claros y medibles para ayudar a nuestros clientes a generar mas ventas, visitas o leads.
+       <p class="lead"><em> En Metrics nos orientamos al Marketing de Performance. Esto significa que todos nuestros esfuerzos están puestos en crear campañas en medios digitales con objetivos claros y medibles para ayudar a nuestros clientes a generar mas ventas, visitas o leads.</em>
 
 
 
@@ -88,9 +90,8 @@
         <p>Remarketing esta diseñado para anunciar un producto o servicio a usuarios que visitaron nuestro sitio pero que no completaron la acción deseada en él. Anuncios de Display serán mostrados a esos usuarios cuando naveguen otras paginas web. Con esto se intentará volver a captar la atencion de esos usuarios nuevamente hacia nuestro sitio y completar la acción deseada que no fue concretada durante su primera visita. Nosotros ayudamos a nuestros clientes a implementar satisfactoriamente este tipo de estrategia que funciona para recuperar a ese usuario y aumentar de este modo las conversiones.
 
 
-    
-     <div id="team"></div>
-      <hr>
+    <div id="team"></div>
+    <hr>
     <div class="row-fluid">
     <h1>Equipo</h1>
         <p>Somos un equipo de profesionales, con mas de 10 años de experiencia en startups tecnológicos, como fundadores, como parte del equipo y como sonsultores externos. Nuestra experiencia en el mercado Latinoamericano creando estrategias de comunicacion en medios digitales escalables según la etapa de cada empresa, nos capacitó para poder brindar un servicio competitivo, orientado a resultados y transparente. 
@@ -104,7 +105,7 @@
 
     <h1>Contacto</h1>
 
-    <p class="lead"> Contáctenos para más información
+    <p class="lead"><em> Contáctenos para más información</em>
 
     <ul class="list-group lead">
         <li  class="list-group-item"> <i class="fa fa-envelope fa-fw"></i> e-mail <A href="mailto:info@agenciametrics.com">info@agenciametrics.com</a>
@@ -179,11 +180,7 @@
         <p> 2013 © Agencia Metrics - All rights reserved </p>
       </div>
 
+    </div> <!-- /row -->
     </div> <!-- /container -->
-    </div> <!-- /container -->
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
 </body>
 </html>
